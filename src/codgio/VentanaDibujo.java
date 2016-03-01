@@ -27,6 +27,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  */
 public class VentanaDibujo extends javax.swing.JFrame {
    
+    
 //    private static int DIMENSION_ARRAY = 8;
     // Imagen en la que pintare los circulos
     // es una variable parecida a un image pero acelerada
@@ -67,8 +68,8 @@ public class VentanaDibujo extends javax.swing.JFrame {
         initComponents();
         jButton23.setBackground(colorElegido);
         this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/logo.png")));
-         this.setTitle("Paint Deluxe");
-        
+        this.setTitle("Paint Deluxe");
+        //Comentario para poder hacer commit
        
 //          this.setIconImage(Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("/imagenes/triangulo.png")));
         jLabel1.setText(String.valueOf(jSlider1.getValue()));
